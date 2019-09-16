@@ -17,14 +17,15 @@ nav a:hover {
 
 .jap-charc {
   font-family: "Noto Sans Japanese", sans-serif;
+  color: #000;
 }
 
-.btn-color {
+.btn-ghost {
   color: #005e76;
   border-color: #8bc9d9;
 }
 
-.btn-color:hover {
+.btn-ghost:hover {
   background-color: #8bc9d9;
   border-color: #005e76;
   color: #005e76;
