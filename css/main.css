@@ -2,17 +2,38 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
+nav a {
+  color: #0084a6;
+  text-decoration: none;
+
+  border-bottom: 2px solid #8bc9d9;
+}
+
+nav a:hover {
+  color: #005e76;
+
+  border-bottom: 2px solid #005e76;
+}
+
 .jap-charc {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
 .btn-color {
   color: #005e76;
-  border-color: #0084a6;
+  border-color: #8bc9d9;
 }
 
 .btn-color:hover {
   background-color: #8bc9d9;
   border-color: #005e76;
   color: #005e76;
+}
+
+hr {
+  border-color: #e2e2e2;
+}
+
+small {
+  color: #888;
 }
