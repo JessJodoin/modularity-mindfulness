@@ -15,9 +15,13 @@ nav a:hover {
   border-bottom: 2px solid #005e76;
 }
 
-.jap-charc {
+a:focus,
+small:focus {
+  outline: 2px solid #000;
+}
+
+.jap {
   font-family: "Noto Sans Japanese", sans-serif;
-  color: #000;
 }
 
 .btn-ghost {
@@ -37,4 +41,16 @@ hr {
 
 small {
   color: #888;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .heading {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
